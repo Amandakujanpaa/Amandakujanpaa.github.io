@@ -1,32 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>CSS Basic assignment</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <div class="nav">
-      <a href="second.html"> Toinen sivu</a>
-    </div>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sweet Paw – Home</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-      <h1 class="header-example">tervetuloa Amandan CSS-harjoitukseen!</h1>
-
-      <p class="color-example">tämä on esimerkkiteksti</p>
-      <ul class="list-example">
-        <li> ensimmäinen asia</li>
-        <li>toinen juttu</li>
-        <li>kolmas juttu</li>
-      </ul>
-
-      <p class="text-example">
-        teksti esimerkkiä, olen Amanda ja tykkään kesästä!
-      </p>
-
-      <div class="div-example">
-        lisää esimerkkiä tässä
-      </div>
-
-</body>
-</html>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="Sweet Paw logo" width="40" height="40" class="me-2" />
+            Sweet Paw
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="partners.html">Partners</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header class="logo-hero d-flex align-items-center justify-content-center">
+        <img src="logo.png" alt="Sweet Paw Logo" class="img-fluid logo-fullscreen" />
+        <div class="container">
+          <h1 class="display-4 fw-bold">Welcome to Sweet Paw</h1>
+          <p class="lead">At Sweet Paw, we pamper your pup with gentle, stylish grooming in a calm and clean salon. Because every paw deserves to feel fabulous.</p>
+          <a href="services.html" class="btn btn-pink mt-3">See Our Services</a>
+        </div>
+      </header>
+      <section class="py-5 bg-light">
+        <div class="container">
+          <h2>Professional Dog Grooming with a Sweet Touch</h2>
+          <p class="mb-4">Sweet Paw offers professional dog grooming with a focus on comfort and style</p>
+          <a href="about.html" class="btn btn-outline-primary">Read More</a>
+        </div>
+      </section>
+      <footer class="footer bg-dark text-white py-4">
+        <div class="container text-center">
+          <p>&copy; 2025 Happy Paws. All rights reserved.</p>
+          <div class="social-icons mt-2">
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer> 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>        
